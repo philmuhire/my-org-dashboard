@@ -1,5 +1,6 @@
 import React from 'react'
 import chartpng from "../../../assets/chart.png"
+import Discover from '../windows/Discover'
 
 const Organization = () => {
     return (
@@ -51,6 +52,7 @@ const Organization = () => {
                 <h4 className='text-sm font-bold my-2 text-left'>Subscription</h4>
                     <p className='text-center text-xs w-72'>Eu duis quis esse fugiat labore anim.Eu duis quis esse fugiat labore anim.Eu duis quis esse fugiat labore anim.</p>
             </div>
+            <Discover/>
 
         </div>
     )
